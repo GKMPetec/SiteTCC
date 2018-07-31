@@ -1,0 +1,33 @@
+.sideMenu {
+	height: 100%;
+	width: 16.66%;
+	position:fixed;
+	left: 0;
+	overflow-x: hidden;
+	background-color: #111;
+}
+
+.main {
+	border-style: dashed;
+}
+	
+.group {
+	display: block;
+	height: 25%;
+	margin: 8px 8px 8px 8px;
+	background-color: #2c2;
+}
+	
+.group a {
+	font-size: 30px;
+	position: relative;
+	float: left;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+	
+.header {
+	position: sticky;
+	top: 0;
+}
